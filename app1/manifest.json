@@ -2,27 +2,19 @@
   "name": "hello-pwa1",
   "short_name": "pwa1",
   "icons": [{
-    "src": "images/test128128.png",
+    "src": "images/p128128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "images/test144144.png",
-    "sizes": "144x144",
-    "type": "image/png"
-  }, {
-    "src": "images/testtest152.png",
+    "src": "images/p152152.png",
     "sizes": "152x152",
     "type": "image/png"
   }, {
-    "src": "images/test192192.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  }, {
-    "src": "images/test256256.png",
+    "src": "images/p256256.png",
     "sizes": "256x256",
     "type": "image/png"
   }, {
-    "src": "images/test512512.png",
+    "src": "images/p512512.png",
     "sizes": "512x512",
     "type": "image/png"
   }],

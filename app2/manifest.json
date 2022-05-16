@@ -1,12 +1,12 @@
 {
-  "name": "hello-pwa2",
-  "short_name": "pwa2",
+  "name": "kjh-pwa",
+  "short_name": "kjh",
   "icons": [{
     "src": "images/kjh_h128128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "images/test144144.png",
+    "src": "images/kjh_h144144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {

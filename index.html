@@ -13,15 +13,11 @@
 <h1>HELLO PWA</h1>
 
 <div id="installContainer" class="hidden" >
-<!--    <button id="butInstall" type="button">-->
-<!--        앱으로 설치-->
-<!--    </button>-->
+    <button id="butInstall" type="button">
+        앱으로 설치
+    </button>
 </div>
-
-<button id="butInstall" type="button">
-    앱으로 설치
-</button>
-
+11
 <div>
     <a href="./app1/index.html">app1</a>
     <a href="./app2/index.html">app2</a>
@@ -31,6 +27,13 @@
 
 <script src="js/main.js"></script>
 <script>
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+            .then((reg) => {
+                console.log('서비스 워커가 등록됨.', reg);
+            });
+    }
 
     window.addEventListener('beforeinstallprompt', (event) => {
         console.log('👍', 'beforeinstallprompt', event);

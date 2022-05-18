@@ -29,6 +29,7 @@
   "lang": "ko-KR",
   "start_url": "./index.html",
   "scope": ".",
+  "prefer_related_applications": true,
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"

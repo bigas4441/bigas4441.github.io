@@ -2,8 +2,8 @@ var cacheName = 'pwacache';
 var filesToCache = [
     './',
     './index.html',
-    './css/style.css', // css style있으면 추가!
-    './js/main.js'
+    // './css/style.css', // css style있으면 추가!
+    './main.js'
 ];
 
 /* 서비스 워커를 시작하고 앱 컨텐츠를 캐싱한다 - offline 작동 */

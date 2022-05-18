@@ -3,7 +3,7 @@ var cacheName = 'pwacache';
 //     './',
 //     './index.html',
 //     // './css/style.css', // css style있으면 추가!
-//     './js/main.js'
+//     './main.js'
 // ];
 var filesToCache = [
     '/app2/',

@@ -1,6 +1,6 @@
 {
-  "name": "hello-pwa1212",
-  "short_name": "pwa1212",
+  "name": "hello-pwa555",
+  "short_name": "pwa555",
   "icons": [{
     "src": "images/p128128.png",
     "sizes": "128x128",
@@ -28,7 +28,7 @@
   }],
   "lang": "ko-KR",
   "start_url": "/app1/",
-  "scope": "/app3/",
+  "scope": "/app5/",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"

@@ -1,0 +1,63 @@
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title> test  </title>
+    <link rel="manifest" crossorigin="use-credentials" href="https://bigas4441.github.io/app1/manifest.json">
+    <style>
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+<h1>test</h1>
+
+<div id="divInstall" class="hidden" >
+    <button id="butInstall" type="button">
+        앱으로 설치
+    </button>
+</div>
+
+<!--<div>-->
+<!--    <img src="./images/p192192.png">-->
+<!--</div>-->
+
+</body>
+
+<!--<script src="./main.js"></script>-->
+<!--<script>-->
+
+<!--    window.addEventListener('beforeinstallprompt', (event) => {-->
+<!--        console.log('👍', 'beforeinstallprompt', event);-->
+<!--        // 나중에 이벤트를 활성화하려고 보관한다.-->
+<!--        window.deferredPrompt = event;-->
+<!--        // 설치 버튼에 담긴 hidden 클래스를 제거한다.-->
+<!--        divInstall.classList.toggle('hidden', false);-->
+<!--    });-->
+
+<!--    butInstall.addEventListener('click', async () => {-->
+<!--        console.log('👍', 'butInstall-clicked');-->
+<!--        const promptEvent = window.deferredPrompt;-->
+<!--        if (!promptEvent) {-->
+<!--            // The deferred prompt isn't available.-->
+<!--            return;-->
+<!--        }-->
+<!--        // 설치 prompt 호출!-->
+<!--        promptEvent.prompt();-->
+<!--        // 결과물 로깅 및 사용자 선택 저장-->
+<!--        const result = await promptEvent.userChoice;-->
+<!--        console.log('👍', 'userChoice', result);-->
+<!--        // 이벤트 초기화. prompt()는 한번만 호출할 수 있다.-->
+<!--        window.deferredPrompt = null;-->
+<!--        // 설치 버튼 다시 숨기기-->
+<!--        divInstall.classList.toggle('hidden', true);-->
+
+<!--    });-->
+
+<!--    window.addEventListener('appinstalled', (event) => {-->
+<!--        console.log('👍', 'appinstalled', event);-->
+<!--        // 이벤트 초기화 (리소스 가비지 처리)-->
+<!--        window.deferredPrompt = null;-->
+<!--    });-->
+<!--</script>-->
+</html>

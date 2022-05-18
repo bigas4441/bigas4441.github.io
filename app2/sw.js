@@ -2,7 +2,7 @@ var cacheName = 'pwacache';
 var filesToCache = [
     './',
     './index.html',
-    './css/style.css', // css style있으면 추가!
+    // './css/style.css', // css style있으면 추가!
     './js/main.js'
 ];
 
@@ -10,7 +10,7 @@ var filesToCache = [
 self.addEventListener('install', function(e) {
     e.waitUntil(
         caches.open(cacheName).then(function(cache) {
-            // return cache.addAll(filesToCache);
+            return cache.addAll(filesToCache);
         })
     );
     self.skipWaiting();

@@ -1,6 +1,6 @@
 {
-  "name": "hello-pwa777",
-  "short_name": "pwa777",
+  "name": "hello-pwa8",
+  "short_name": "pwa8",
   "icons": [{
     "src": "images/p128128.png",
     "sizes": "128x128",
@@ -28,8 +28,7 @@
   }],
   "lang": "ko-KR",
   "start_url": "./index.html",
-  "scope": ".",
-  "prefer_related_applications": true,
+  "scope": "/app1/",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"

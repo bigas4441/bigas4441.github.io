@@ -2,27 +2,27 @@
   "name": "kjh-pwa",
   "short_name": "kjh2",
   "icons": [{
-    "src": "images/kjh_h128128.png",
+    "src": "https://bigas4441.github.io/app1/images/kjh_h128128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "images/kjh_h144144.png",
+    "src": "https://bigas4441.github.io/app1/images/kjh_h144144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "images/kjh_h152152.png",
+    "src": "https://bigas4441.github.io/app1/images/kjh_h152152.png",
     "sizes": "152x152",
     "type": "image/png"
   }, {
-    "src": "images/kjh_h192192.png",
+    "src": "https://bigas4441.github.io/app1/images/kjh_h192192.png",
     "sizes": "192x192",
     "type": "image/png"
   }, {
-    "src": "images/test256256.png",
+    "src": "https://bigas4441.github.io/app1/images/test256256.png",
     "sizes": "256x256",
     "type": "image/png"
   }, {
-    "src": "images/test512512.png",
+    "src": "https://bigas4441.github.io/app1/images/test512512.png",
     "sizes": "512x512",
     "type": "image/png"
   }],

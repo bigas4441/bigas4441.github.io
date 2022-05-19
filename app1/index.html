@@ -10,7 +10,7 @@
     </style>
 </head>
 <body>
-<h1>HELLO PWA 1</h1>
+<h1>HELLO PWA 초기화</h1>
 
 <div id="divInstall" class="hidden" >
     <button id="butInstall" type="button">
@@ -26,6 +26,8 @@
 
 <script src="./main.js"></script>
 <script>
+
+    window.history.forward(1);
 
     window.addEventListener('beforeinstallprompt', (event) => {
         console.log('👍', 'beforeinstallprompt', event);
